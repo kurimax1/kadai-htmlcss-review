@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* 全体のレイアウト */
+body {
+    margin: 0;
+}
+
+/* ヘッダー */
+header {
+    background-color: #ffcccc;
+    width: 1000px;
+}
+
+/* フッター */
+footer {
+    background-color: #ffccff;
+	width: 1000px;
+}
+
+/* ラッパー全体 */
+#wrapper {
+    display: flex;
+}
+
+/* メインコンテンツ */
+#main {
+    background-color: #ccffcc;
+    width: 700px;
+}
+
+/* ナビゲーションメニュー */
+#menu {
+    background-color: #ccccff;
+    width: 300px;
+}
